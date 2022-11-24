@@ -22,7 +22,7 @@
 ## 1-Liu Zhuang (Keywords: Vision Transformer，Convnet，RenNet)
 Facebook AI Research，UC Berkeley
 ### Publications
-   - **A ConvNet for the 2020s**  [paper](https://arxiv.org/abs/2201.03545)[github](https://github.com/facebookresearch/ConvNeXt)
+   - **A ConvNet for the 2020s**  [paper](https://arxiv.org/abs/2201.03545)  [github](https://github.com/facebookresearch/ConvNeXt)
    - 2022/11/22
    - comments by WYC：由于ViT的诞生，transformer越来越火，但是卷积神经网络还没有被完全开发。文章提出了一种名为ConvNext的纯卷积神经网络，与Swin Transformer对标，通过学习ViT的训练策略，改变ResNet的训练技巧，例如改变ResNet的Block的堆叠次数，改变激活函数，把BN换成CN等等策略。
    - conclusion by WYC:论文主要讲了ConvNext主要做了那些训练策略的改变，修改网络不一定要修改网络结构，也可以修改训练技巧。
