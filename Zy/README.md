@@ -4,7 +4,7 @@
 
 - School of Electronics Science and Engineering, National University of Defense Technology, Changsha 410073, China
 
-## Publications
+### Publications
 
 - Mathematic principles of interrupted-sampling repeater jamming (ISRJ)  [paper]( [Mathematic principles of interrupted-sampling repeater jamming (ISRJ) | SpringerLink](https://link.springer.com/article/10.1007/s11432-007-2017-y) )
   * 2022.11.21
@@ -16,7 +16,7 @@
 - 电子科技大学信息与通信工程学院 成都 611731
 - 上海汽车集团股份有限公司 上海 201804
 
-## Publications
+### Publications
 
 - 认知雷达波形优化设计方法综述  [paper]( [认知雷达波形优化设计方法综述 (radars.ac.cn)](https://radars.ac.cn/article/doi/10.12000/JR19072)  )
   * 2022.11.23-11.24
