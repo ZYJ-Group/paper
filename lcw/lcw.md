@@ -46,6 +46,6 @@ SLAM
     - 实现了轻量级，但是在实际环境中，是否鲁棒还得验证一下。   
     <div align=center>
     <img width="500" alt="image" src="https://github.com/ZYJ-Group/paper/blob/main/lcw/image/DPVO-1.png">
-    <img width="700" alt="image" src="https://github.com/ZYJ-Group/paper/blob/main/lcw/image/DPVO-3.png">
+    <img width="300" alt="image" src="https://github.com/ZYJ-Group/paper/blob/main/lcw/image/DPVO-3.png">
     <img width="500" alt="image" src="https://github.com/ZYJ-Group/paper/blob/main/lcw/image/DPVO-4.png">
     </div>
