@@ -40,12 +40,12 @@ SLAM
     此外，其还从匹配和上下文特征映射中提取补丁，并且在随机抽取斑块质心的基础上，采用双线性插值方法进行特征提取。  
     - 2、更新器；（通过循环神经网络跟踪这些patch，并进行迭代BA优化）
     <div align=center>
-    <img width="700" alt="image" src="https://github.com/ZYJ-Group/paper/blob/662e1fc595d9f66c673fd21ac38e8a1f5f2b75fc/lcw/image/DPVO-2.png">
+    <img width="700" alt="image" src="https://github.com/ZYJ-Group/paper/blob/main/lcw/image/DPVO-2.png">
     </div>
   - 优点：
     - 实现了轻量级，但是在实际环境中，是否鲁棒还得验证一下。   
     <div align=center>
-    <img width="500" alt="image" src="https://github.com/ZYJ-Group/paper/blob/662e1fc595d9f66c673fd21ac38e8a1f5f2b75fc/lcw/image/DPVO-1.png">
-    <img width="700" alt="image" src="https://github.com/ZYJ-Group/paper/blob/662e1fc595d9f66c673fd21ac38e8a1f5f2b75fc/lcw/image/DPVO-3.png">
-    <img width="500" alt="image" src="https://github.com/ZYJ-Group/paper/blob/662e1fc595d9f66c673fd21ac38e8a1f5f2b75fc/lcw/image/DPVO-4.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/paper/blob/main/lcw/image/DPVO-1.png">
+    <img width="700" alt="image" src="https://github.com/ZYJ-Group/paper/blob/main/lcw/image/DPVO-3.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/paper/blob/main/lcw/image/DPVO-4.png">
     </div>
