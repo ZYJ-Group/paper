@@ -17,6 +17,11 @@ Automatic Driving Perception
     - 1、VIPS有效地利用了基础设施的计算/通信资源，因为只有少量的检测结果会广播给所有过往车辆。
     - 2、VIPS利用了动态对象从不同角度的空间和语义一致性，实现了精确的实施对齐，而不依赖于车辆的高精度定位；
     - 3、VIPS利用了运动物体的特性，有连续性的信息表示，减少了基础设施以及车辆的算力要求。
-![Image]([https://raw.githubusercontent.com/Gladysid/Images-blog/master/IE-box-pic.png](https://github.com/ZYJ-Group/paper/blob/28bfe3ce7a88afa9298e8210f62061c27e3587d7/lcw/image/VIPS-2.png))
+   
+    <div align=center>
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/paper/blob/662e1fc595d9f66c673fd21ac38e8a1f5f2b75fc/lcw/image/VIPS-2.png">
 
+    <img width="700" alt="image" src="https://github.com/ZYJ-Group/paper/blob/662e1fc595d9f66c673fd21ac38e8a1f5f2b75fc/lcw/image/VIPS-3.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/paper/blob/662e1fc595d9f66c673fd21ac38e8a1f5f2b75fc/lcw/image/VIPS-7.png">
+    </div>
 
