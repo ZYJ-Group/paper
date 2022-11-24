@@ -6,7 +6,7 @@
 
 ## Publications
 
-- Mathematic principles of interrupted-sampling repeater jamming (ISRJ)  [paper]( [Mathematic principles of interrupted-sampling repeater jamming (ISRJ) | SpringerLink](https://link.springer.com/article/10.1007/s11432-007-2017-y) )
+- Mathematic principles of interrupted-sampling repeater jamming (ISRJ)[paper]( [Mathematic principles of interrupted-sampling repeater jamming (ISRJ) | SpringerLink](https://link.springer.com/article/10.1007/s11432-007-2017-y) )
   * 2022.11.21
   * comments by Zy:文章指出了中断采样干扰技术是起因是为了解决工程问题（雷达信号高速采样和两个收发天线的高度隔离问题），然后提出来的一种***基于带收发分时天线*** 的干扰机的干扰技术。先分析了中断采样信号（矩形脉冲串）的时域和频域特性，然后对中断采样雷达信号的匹配滤波输出进行分析，最后对具体的窄带雷达信号和LFM信号干扰输出表达分析。
   *  conclusion by ZY: 文章比较早了，以了解中断采样转发干扰的数学原理为主要目的。
