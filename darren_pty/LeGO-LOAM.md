@@ -16,6 +16,6 @@ LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variab
      - 3、然后利用平面和边缘特征采用了两步Levenberg-Marquardt优化方法，来求解连续扫描中六自由度变换的不同分量
   - 效果： LeGO-LOAM在降低计算开支的情况下达到了与LOAM类似或更好的精度
  
-  - 框架：
+  - 效果图：
   
-  ![](https://img-blog.csdnimg.cn/7f4559a99c98438caca37e237bedad35.png)
+  ![](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM/raw/master/LeGO-LOAM/launch/demo.gif)
