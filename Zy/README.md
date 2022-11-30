@@ -27,7 +27,7 @@
 
 ## 1. Ian J. Goodfellow（关键词：GAN）
 
-- 
+- D ́epartement d'informatique et de recherche op ́erationnelle Universit ́e de Montr ́eal Montr ́eal, QC H3C 3J7
 
 ### Publications
 
