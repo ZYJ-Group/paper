@@ -34,9 +34,19 @@ BIIT Lab, Tianjin University，City University of Hong Kong，Nanyang Technologi
 ### Publications
 - **Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement**  [paper](https://arxiv.org/abs/2001.06826)  [github](https://li-chongyi.github.io/Proj_Zero-DCE.html/)
 - 2022/11/28
-- comments by WYC:Low Light影像会识别或检测中传递错误的信息，该文提出了一种新的解决低光影像增强的方法。现有的多种影像增强方法都需要借助paired/unpaired data，这种数据集很少且想要自己制作也很难，作者设计了一种non-reference影像增强方法。可以在没有参考图像的情况下进行训练，通过image-specific曲线对输入图像做像素级调整，从而得到增强图像。
+- comments by WYC:Low Light影像在识别或检测中会传递错误的信息，该文提出了一种新的解决低光影像增强的方法。现有的多种影像增强方法都需要借助paired/unpaired data，这种数据集很少且想要自己制作也很难，作者设计了一种non-reference影像增强方法。可以在没有参考图像的情况下进行训练，通过image-specific曲线对输入图像做像素级调整，从而得到增强图像。
 - conclusion by WYC:文章的主要亮点在于训练数据可以不需要成对，一般的数据集很难有low light和normal light相匹配的，如果只有一种数据集而且想要增强影像的话，可以用这个模型。
 - ![](./images/Zero_img1.jpg) ![](./images/Zero_img2.jpg)
+
+## 2-Jiang Yi fan，Gong Xin yu (Keywords: GAN，Image Enhancement,Deep Light Enhancement)
+University of Texas at Austin
+### Publications
+- **EnlightenGAN: Deep Light Enhancement without Paired Supervision**  [paper](https://arxiv.org/abs/1906.06972)  [github](https://github.com/VITA-Group/EnlightenGAN)
+- 2022/11/30
+- comments by WYC:
+- conclusion by WYC:
+- ![](./images/EnlightGan_img1.jpg) ![](./images/EnlightGan_img2.jpg)
+
 
 
 
