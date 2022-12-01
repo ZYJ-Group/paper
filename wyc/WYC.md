@@ -43,8 +43,8 @@ University of Texas at Austin
 ### Publications
 - **EnlightenGAN: Deep Light Enhancement without Paired Supervision**  [paper](https://arxiv.org/abs/1906.06972)  [github](https://github.com/VITA-Group/EnlightenGAN)
 - 2022/11/30
-- comments by WYC:
-- conclusion by WYC:
+- comments by WYC:做低光图像增强，很大的一个问题就是成对的数据集很少也很难扩展，该算法采用GAN网络，在不依赖于精确匹配的影像的情况下，在低光和正常光影像空间建立非配对映射，即训练数据集同样需要低光和正常光两种图片，但无需这两种图片一一对应，只需光照强度不同即可。EnlightenGAN降低了对数据集的要求，使得它能更灵活的应用于各种领域的低光影像增强问题。
+- conclusion by WYC:在我使用的数据集中，EnlightenGAN比上面那个算法的效果要好很多，而且EnlightenGAN对于正常亮度的图片处理后的影响也小很多，Zero—DCE处理正常图片后会丢失很多细节。但是EnlightenGAN的训练和处理时间会更长一些。
 - ![](./images/EnlightGan_img1.jpg) ![](./images/EnlightGan_img2.jpg)
 
 
