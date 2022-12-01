@@ -24,8 +24,7 @@ Space Applications XIV) [paper](https://drive.google.com/file/d/1GsvANy0GqKeGugN
    - 2022/11/30 (阅读时间)
    - comments by ZYJ: 基于双目视觉图像应用ICP (Iterative Closest Point) 算法去测量目标三维点坐标，根据整个序列结果匹配原始目标3D结构，然后更新完成目标姿态、旋转参数，搭建了 “On-orbit Visual Environment Simulator” 系统。
    - conclusion by ZYJ: 后面有一系列基于这个方法的工作，可以再进一步细读。
-   - <img width="400" alt="image" src="https://user-images.githubusercontent.com/19592290/204987304-fbbc075b-0eea-4950-a998-36a59bc0aa78.png">
+   - <img width="400" alt="image" src="https://user-images.githubusercontent.com/19592290/204987304-fbbc075b-0eea-4950-a998-36a59bc0aa78.png"> <img width="400" alt="image" src="https://user-images.githubusercontent.com/19592290/204986004-a393be2c-9380-4839-8f7c-aa7658420c35.png">
    - <img width="400" alt="image" src="https://user-images.githubusercontent.com/19592290/204985817-0a385636-0247-423f-8926-79be78f02fe7.png">
-   - <img width="400" alt="image" src="https://user-images.githubusercontent.com/19592290/204986004-a393be2c-9380-4839-8f7c-aa7658420c35.png">
 
 
