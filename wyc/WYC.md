@@ -36,7 +36,7 @@ BIIT Lab, Tianjin University，City University of Hong Kong，Nanyang Technologi
 - 2022/11/28
 - comments by WYC:
 - conclusion by WYC:
-- ![](./images/Gee_img1.jpg) ![](./images/Gee_img2.jpg)
+- ![](./images/Zero_img1.jpg) ![](./images/Zero_img2.jpg)
 
 
 
