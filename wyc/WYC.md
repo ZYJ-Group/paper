@@ -22,8 +22,8 @@
 ### Publications
    - **Oriented R-CNN for Object Detection**  [paper:ICCV2021](https://arxiv.org/abs/2108.05699)   [github](https://arxiv.org/abs/2108.05699) 
   - 2022/12/7
-  - comments by WYC: SAR图像舰船检测公开的数据集比较有限，基于高分三号卫星数据，构建了一个面向宽幅场景的数据集，该数据集有更多的近岸和岛礁，更贴近真实场景，且分辨率更高。数据集按照PASCAL VOC格式标注，保存为XML格式。Train和Test按照2：1比例分配。
-  - conclusion by WYC:此数据集存在两个问题，一是影像数量太少(31张)，二是单张影像太大(3000*3000)，使用时应该要进行剪切。
+  - comments by WYC: 已有的双阶段定向目标检测方法在生成候选框时是很耗时的，以Rotated RPN为例，每个像素点生成54个候选框，这极大的增加了参数量和计算量，而Oriented RPN只生成3个候选框，在检测速度上有了很大的突破。一个轻量的FCN，输出一6个参数的元组(x ,y ,w ,h ,α ,β)代表一个候选框，并且提出了一种新的叫做中心偏移法来表示候选框。文章主要的创新点就在第一阶段提取候选框上，突破了定向目标检测的速度瓶颈。
+  - conclusion by WYC:oriented_RPN快速生成带方向的候选框，Head检测头用来提取候选框的特征并进行回归和分类。
   - 网络结构：
    ![](./images/obb_1.jpg) 
   - 检测结果：
@@ -36,8 +36,8 @@ Facebook AI Research，UC Berkeley
 ### Publications
    - **A ConvNet for the 2020s**  [paper](https://arxiv.org/abs/2201.03545)  [github](https://github.com/jbwang1997/OBBDetection)
    - 2022/11/22
-   - comments by WYC：已有的双阶段定向目标检测方法在生成候选框时是很耗时的，以Rotated RPN为例，每个像素点生成54个候选框，这极大的增加了参数量和计算量，而Oriented RPN只生成3个候选框，在检测速度上有了很大的突破。一个轻量的FCN，输出一6个参数的元组(x ,y ,w ,h ,α ,β)代表一个候选框，并且提出了一种新的叫做中心偏移法来表示候选框。文章主要的创新点就在第一阶段提取候选框上，突破了定向目标检测的速度瓶颈。
-   - conclusion by WYC:oriented_RPN快速生成带方向的候选框，Head检测头用来提取候选框的特征并进行回归和分类。
+   - comments by WYC：由于ViT的诞生，transformer越来越火，但是卷积神经网络还没有被完全开发。文章提出了一种名为ConvNext的纯卷积神经网络，与Swin Transformer对标，通过学习ViT的训练策略，改变ResNet的训练技巧，例如改变ResNet的Block的堆叠次数，改变激活函数，把BN换成CN等等策略。
+   - conclusion by WYC:论文主要讲了ConvNext主要做了那些训练策略的改变，修改网络不一定要修改网络结构，也可以修改训练技巧。
    - ![](./images/convnext_img2.jpg) ![](./images/convnext_img1.jpg)
 
 # Light Enhancement
