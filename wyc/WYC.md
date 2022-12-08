@@ -20,7 +20,7 @@
 ## 3-Xie Xing xing，Cheng Gong (Keywords: Oriented Object Detection) 
 西北工业大学
 ### Publications
-   - **Oriented R-CNN for Object Detection**  [paper:ICCV2021](https://arxiv.org/abs/2108.05699) 
+   - **Oriented R-CNN for Object Detection**  [paper:ICCV2021](https://arxiv.org/abs/2108.05699)   [github](https://arxiv.org/abs/2108.05699) 
   - 2022/12/7
   - comments by WYC: SAR图像舰船检测公开的数据集比较有限，基于高分三号卫星数据，构建了一个面向宽幅场景的数据集，该数据集有更多的近岸和岛礁，更贴近真实场景，且分辨率更高。数据集按照PASCAL VOC格式标注，保存为XML格式。Train和Test按照2：1比例分配。
   - conclusion by WYC:此数据集存在两个问题，一是影像数量太少(31张)，二是单张影像太大(3000*3000)，使用时应该要进行剪切。
@@ -31,7 +31,7 @@
 ## 1-Liu Zhuang (Keywords: Vision Transformer，Convnet，RenNet)
 Facebook AI Research，UC Berkeley
 ### Publications
-   - **A ConvNet for the 2020s**  [paper](https://arxiv.org/abs/2201.03545)  [github](https://github.com/facebookresearch/ConvNeXt)
+   - **A ConvNet for the 2020s**  [paper](https://arxiv.org/abs/2201.03545)  [github](https://github.com/jbwang1997/OBBDetection)
    - 2022/11/22
    - comments by WYC：由于ViT的诞生，transformer越来越火，但是卷积神经网络还没有被完全开发。文章提出了一种名为ConvNext的纯卷积神经网络，与Swin Transformer对标，通过学习ViT的训练策略，改变ResNet的训练技巧，例如改变ResNet的Block的堆叠次数，改变激活函数，把BN换成CN等等策略。
    - conclusion by WYC:论文主要讲了ConvNext主要做了那些训练策略的改变，修改网络不一定要修改网络结构，也可以修改训练技巧。
