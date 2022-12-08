@@ -26,12 +26,19 @@
 - 西安电子科技大学 硕士论文
 
 ### Publications
-* 阅读时间：2022.12.1
-* 点评：前面主要介绍了干扰技术和抗干扰技术。其次，介绍了博弈论的概念，主要由局中人、策略树和盈利矩阵三个部分组成。将雷达和干扰机作为局中人，然后干扰技术和抗干扰技术作为策略树，干扰的效果作为盈利矩阵。基于博弈论，设计干扰决策如下：
+  * 阅读时间：2022.12.1
+  * 点评：前面主要介绍了干扰技术和抗干扰技术。其次，介绍了博弈论的概念，主要由局中人、策略树和盈利矩阵三个部分组成。将雷达和干扰机作为局中人，然后干扰技术和抗干扰技术作为策略树，干扰的效果作为盈利矩阵。基于博弈论，设计干扰决策如下：![](image/干扰决策系统框图.jpg)
+  * 总结：技术的关键应该是盈利矩阵的求解，文章给出了一个基于经验的盈利矩阵和一种基于模糊数学的盈利矩阵的求解，但是后者对于盈利矩阵影响因素的权重因子没有给出结论。
 
-![](image/干扰决策系统框图.jpg)
+## 4.A Practical Deceptive Jamming Method Based on Vulnerable Location Awareness Adversarial Attack for Radar HRRP Target Recognition([paper](https://ieeexplore.ieee.org/document/9766209))
 
-* 总结：技术的关键应该是盈利矩阵的求解，文章给出了一个基于经验的盈利矩阵和一种基于模糊数学的盈利矩阵的求解，但是后者对于盈利矩阵影响因素的权重因子没有给出结论。
+- Chuan Du , Yulai Cong, Lei Zhang , Member, IEEE, Dandan Guo , and Song Wei
+- Published in : IEEE Transactions on Information Forensics and Security
+
+### Publications
+* 阅读时间：2022.12.8
+* 点评：根据HRRP目标识别问题，本文提出了一种新的干扰模式。之前的干扰方式都是对HRRP上的所有距离单元增加微小扰动，这篇文章主要是一个距离单元增加干扰脉冲来产生对抗性。然后设计了一个算法VLA，主要是将易受影响位置的计算作为一个优化约束问题，利用了QE算法计算。然后为了提高实时性，设计了一个VLAN网络。
+* 总结:文章的主要创新还是提出了这种只在一个距离单元上增加干扰脉冲的HRRP欺骗干扰方式。
 
 # 网络模型
 
