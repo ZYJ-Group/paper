@@ -17,7 +17,7 @@
 ####  conclusion by ZYJ:主要集中于跟踪算法的改进，跟目前研究目的不大相关，有需要状态预测再仔细读。
 
 ## 1篇-Fuyuto Terui (Keywords: Stereo Vision) 
--  JAXA : Japan Aerospace Exploration Agency
+-JAXA : Japan Aerospace Exploration Agency
 ### 1 Motion Estimation to a Failed Satellite on Orbit using Stereo Vision and 3D Model Matching. (International Conference on Control. IEEE, 2006.)[paper](https://ieeexplore.ieee.org/document/4150165)
    - 2022/11/30 (阅读时间)
 ####  comments by ZYJ: 基于双目视觉图像应用ICP (Iterative Closest Point) 算法去测量目标三维点坐标，根据整个序列结果匹配原始目标3D结构，然后更新完成目标姿态、旋转参数，搭建了 “On-orbit Visual Environment Simulator” 系统。
@@ -27,7 +27,7 @@
 
 
 ## 1篇- Xu Gang (Keywords: ISAR Image Classification) 
--  State Key Laboratory of Millimeter Waves, Southeast University
+-State Key Laboratory of Millimeter Waves, Southeast University
 ### CLISAR-Net: A Deformation-Robust ISAR Image Classification Network Using Contrastive Learning. (Remote Sensing, 2022.)[paper](https://www.mdpi.com/2072-4292/15/1/33/pdf)
    - 2023/01/03 (阅读时间)
 #### comments by ZYJ: 基于对比学习提取运动引起的非聚焦图像特征，然后实现不同空间目标的分类。第一阶段无监督训练，通过两个编码器根据InfoNCE (Noise Contrastive Estimation) loss[paper](https://arxiv.org/pdf/1807.03748.pdf)实现聚焦图像与非聚焦图像间的差异学习，然后第二个阶段使用少部分样本进行带标签的分类训练。
