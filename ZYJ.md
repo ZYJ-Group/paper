@@ -3,9 +3,7 @@
 # 已更新文献数量 4 篇
 ## 2篇-Dan Shen (Keywords: satellite behavior discovery) （篇数+作者信息+关键词）
 -Chief Scientist of Intelligent Fusion, Germantown, MD, USA （主要作者单位）
-### Publications
-### 1 Three-dimensional convolutional neural network (3D-CNN) for satellite behavior discovery (Proc. SPIE 11755, Sensors and Systems for
-Space Applications XIV， 2021) [paper](https://drive.google.com/file/d/1GsvANy0GqKeGugN_fYaX9QIjB-10Q-Lk/view) （序号+文章名+发表刊物+年份+链接）
+### 1 Three-dimensional convolutional neural network (3D-CNN) for satellite behavior discovery (Proc. SPIE 11755, Sensors and Systems for Space Applications XIV， 2021) [paper](https://drive.google.com/file/d/1GsvANy0GqKeGugN_fYaX9QIjB-10Q-Lk/view) （序号+文章名+发表刊物+年份+链接）
     - 2022/11/19 (阅读时间)
 ####  conclusion by ZYJ:主要集中于跟踪算法的改进，跟目前研究目的不大相关，有需要状态预测再仔细读。 comments by ZYJ: 根据地面测量的距离、方位、俯仰、RCS序列去对目标行为进行分类，使用Adaptive Markov Inference Game Optimization (AMIGO)仿真软件构造数据集，并搭建一个3D CNN网络进行行为识别，对比实验是之前的2D CNN精度提升了（ 95.3% VS  92.1%）。 文章比较水，大部分篇幅在科普网络结构，行为标签没说怎么来的，可以是:增加orbital energy，减少orbital energy，以及0机动（zero-maneuver）。
      - <img width="694" alt="image" src="https://user-images.githubusercontent.com/19592290/201851463-8ae227d4-e38a-4be8-a4bf-73c6c30e91b6.png">
