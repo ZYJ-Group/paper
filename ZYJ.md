@@ -36,6 +36,6 @@ Space Applications XIV) [paper](https://drive.google.com/file/d/1GsvANy0GqKeGugN
    - <img width="500" alt="image" src="https://user-images.githubusercontent.com/19592290/210315184-51dab657-5107-49d3-9d18-de951f62fa4d.png"> 
    中间对比学习（Contrastive Learning）有一些点还可以，整体任务比较简单。实验基于HFSS仿真了4个目标，每个实验数据集规模在2000+2000，用了一张3090。
    - <img width="500" alt="image" src="https://user-images.githubusercontent.com/19592290/210314657-2aba5d41-848a-4113-b7c0-a25c5d1cee9a.png"> 
-   - <img width="500" alt="image" src="(https://user-images.githubusercontent.com/19592290/210315529-27be8d10-e5af-44a6-af56-0b4aef312e99.png"> 
+   - <img width="500" alt="image" src="https://user-images.githubusercontent.com/19592290/210315529-27be8d10-e5af-44a6-af56-0b4aef312e99.png"> 
 
    - conclusion by ZYJ: 可以当作入门文章，网络工作量应该不大，关键在于HFSS仿真，对比学习需要搞清楚无监督中样本对的差异InfoNCE怎么定义。
