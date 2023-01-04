@@ -50,7 +50,7 @@
 ### SAISAR-Net: A Robust Sequential Adjustment ISAR Image Classification Network. (IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING, 2022.)[paper](https://ieeexplore.ieee.org/abstract/document/9552492)
    - 2023/01/04 (阅读时间)
 #### comments by ZYJ: 基于注意力提升（Attention Augmented）的Bi-LSTM对形变（deformation）ISAR图像序列进行有监督的训练分类。
-   - <img width="700" alt="image" src="https://user-images.githubusercontent.com/19592290/210518328-0423927e-6917-4a84-90f6-51a1afc75646.png"> <img width="300" alt="image" src="https://user-images.githubusercontent.com/19592290/210518493-c100c103-27b5-4a7e-833c-c7310bcede41.png"> 
+   - <img width="600" alt="image" src="https://user-images.githubusercontent.com/19592290/210518328-0423927e-6917-4a84-90f6-51a1afc75646.png"> <img width="300" alt="image" src="https://user-images.githubusercontent.com/19592290/210518493-c100c103-27b5-4a7e-833c-c7310bcede41.png"> 
 ####   实验基于电磁仿真了HV极化目标成像结果，每个实验数据集规模在2000，单帧大小128X128，序列长度3-15，用了一张2080 Ti，实验比较充分。
    - <img width="500" alt="image" src="https://user-images.githubusercontent.com/19592290/210520129-6365ba1f-d465-462c-acee-09938af6fb81.png"> <img width="500" alt="image" src="https://user-images.githubusercontent.com/19592290/210520413-b2b22f34-417e-4e12-9b3a-328ee517bbe1.png"> 
 #### conclusion by ZYJ: 可以当作网络方向参考文章，写得可以。
