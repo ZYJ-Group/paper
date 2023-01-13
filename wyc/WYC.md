@@ -27,8 +27,18 @@
   - 网络结构：
    ![](./images/obb_1.jpg) 
   - 检测结果：
-   ![](./images/obb_2.jpg)
-
+   ![](./images/obb_2.jpg
+## 4-Yang Xue，Zhang Ge fan (Keywords: Oriented Object Detection) 
+上海交通大学，浙江大学
+### Publications
+- **H2RBOX: HORIZONTAL BOX ANNOTATION IS ALL YOU NEED FOR ORIENTED OBJECT DETECTION**  [paper](https://arxiv.org/abs/2210.06742)   [github](https://github.com/yangxue0827/h2rbox-mmrotate)
+- 2023/1/10
+- comments by WYC: 文章提出了一种简单且有效的旋转框目标检测算法，仅使用horizontal box标注进行弱监督训练即可。算法主要包括弱监督分支(WS)和自监督分支(SS)两部分，WS分支的backbone和neck可以用经典的resnet和FPN，Head采用FCOS的Head得到旋转框，然后利用旋转框的外接矩形和GT水平框计算loss。由于一个水平框可以内接无数个旋转框，所以引入SS分支，ss分支用来回归确定唯一的旋转框。
+- conclusion by WYC:H2RBOX是相当成熟的旋转框检测算法了，它基于Anchor-free，极大程度提升了检测速度，同时采用弱监督方法，只利用水平框标注即可，极大减少了标注损失，且精度已经和传统的利用旋转标注的检测算法相差无几。
+- 网络结构：
+  ![](./images/H2R_img1.jpg)
+- 实验对比：
+  ![](./images/H2R_img2.jpg)
 # Deep Learning
 
 ## 1-Liu Zhuang (Keywords: Vision Transformer，Convnet，RenNet)
