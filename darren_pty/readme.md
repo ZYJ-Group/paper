@@ -10,7 +10,7 @@
 
 
 #### 1.2 深度神经网络方法
-- [4-Learning multiview 3D point cloud registration](https://blog.csdn.net/peng_258/article/details/130373356?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22130373356%22%2C%22source%22%3A%22peng_258%22%7D)
+- [7-Learning multiview 3D point cloud registration](https://blog.csdn.net/peng_258/article/details/130373356?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22130373356%22%2C%22source%22%3A%22peng_258%22%7D)
 
 
 
@@ -29,4 +29,17 @@
 ## 四、点云标定(Cloud Calibration)
 
 ### 1、激光雷达-相机标定 
-- [Calib-Anything: Zero-training LiDAR-Camera Extrinsic Calibration Method Using Segment Anything](https://blog.csdn.net/peng_258/article/details/131326403?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22131326403%22%2C%22source%22%3A%22peng_258%22%7D)
+- [8-Calib-Anything: Zero-training LiDAR-Camera Extrinsic Calibration Method Using Segment Anything](https://blog.csdn.net/peng_258/article/details/131326403?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22131326403%22%2C%22source%22%3A%22peng_258%22%7D)
+
+
+## 五、语义分割
+### 5.1 3D
+- [9-Segment Anything in 3D with NeRFs](https://blog.csdn.net/peng_258/article/details/131367841?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22131367841%22%2C%22source%22%3A%22peng_258%22%7D)
+
+### 5.2 2D
+
+
+
+
+
+
