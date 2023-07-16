@@ -36,6 +36,12 @@
 ### 5.1 3D
 - [9-Segment Anything in 3D with NeRFs](https://blog.csdn.net/peng_258/article/details/131367841?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22131367841%22%2C%22source%22%3A%22peng_258%22%7D)
 
+弱监督语义分割：少量标注实现较高精度3D语义分割
+- [10-SQN: Weakly-Supervised SemanticSegmentation of Large-Scale 3D Point Clouds](https://blog.csdn.net/peng_258/article/details/131753619?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22131753619%22%2C%22source%22%3A%22peng_258%22%7D)
+
+
+
+
 ### 5.2 2D
 
 
