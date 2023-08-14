@@ -22,3 +22,40 @@
 
 ------
 
+## 2-Yu Wan（Keywords:bidirectional matching）
+
+------
+
+### -Sun Yat-sen University
+
+------
+
+### 2 Feature point bidirectional matching and 3D reconstruction of sequence ISAR image based on SFIT and RANSAC method（CIE International Conference on Radar，2021）[paper]([10.1109/Radar53847.2021.10028173](https://doi.org/10.1109/Radar53847.2021.10028173))
+
+-2023/8/10（阅读时间）
+
+### comments by LY:本文主要使用SIFT进行帧间关联，通过RANSAC去除误匹配点对，通过正确匹配点对求出投影变换矩阵，通过投影变换矩阵进行特征变换，由于正确匹配点对数量少，所以提出一种双向的匹配方法，增加关联的特征点数量
+
+![12-1](./images/1/12-1.png)
+
+### conclusion by LY:本文通过一种双向匹配策略，增加了SIFT特征匹配点对的数量，虽然可以提高重建目标的完整度，但SIFT本身就很耗费时间，用SIFT进行关联太浪费时间。
+
+------
+
+## 3-Feng Wang（Keywords:**orthographic factorization method (OFM)、**3-D information）
+
+------
+
+### -Fudan University
+
+------
+
+### 3  Three-Dimensional Reconstruction From a Multiview Sequence of Sparse ISAR Imaging of a Space Target（IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING，2018）[paper]( [10.1109/TGRS.2017.2737988](https://doi.org/10.1109/TGRS.2017.2737988))
+
+-2023/08/12（阅读时间）
+
+### comments by LY:本文首先通过压缩感知模拟生成二维ISAR图像，然后使用KLT（Kanade–Lucas–Tomasi）进行特征检测和追踪，最后通过正交因式分解进行三维重构，三维重建方面没有太大创新，主要添加了压缩感知成像。
+
+![13-1](./images/1/13-1.png)
+
+### conclusion by LY:这篇论文实验挺多，三维重建方面方法都是老的，个人感觉文中模拟的模型，重建结果都不是太理想。
