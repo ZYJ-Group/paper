@@ -22,14 +22,31 @@
 
 
 
+
+
+
+
 ## 三、SLAM
+### 3.1 lidar 
 - [6-LeGO-LOAM](https://github.com/ZYJ-Group/paper/blob/main/darren_pty/1-LeGO-LOAM.md)
+
+- [13-FAST-LIO](https://blog.csdn.net/peng_258/article/details/132320757?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132320757%22%2C%22source%22%3A%22peng_258%22%7D)
+> 香港大学星火实验室
+
+
+
+
 
 
 ## 四、点云标定(Cloud Calibration)
 
 ### 1、激光雷达-相机标定 
 - [8-Calib-Anything: Zero-training LiDAR-Camera Extrinsic Calibration Method Using Segment Anything](https://blog.csdn.net/peng_258/article/details/131326403?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22131326403%22%2C%22source%22%3A%22peng_258%22%7D)
+
+
+
+
+
 
 
 ## 五、语义分割
