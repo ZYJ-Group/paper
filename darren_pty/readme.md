@@ -78,7 +78,9 @@ Methods for LiDAR Panoptic Segmentation](https://blog.csdn.net/peng_258/article/
 
 
 
-
+## 七、数据集
+- [15-Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation ofUrban Roadways](https://blog.csdn.net/peng_258/article/details/132383232?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132383232%22%2C%22source%22%3A%22peng_258%22%7D)
+> Toronto-3D 是一个带颜色信息城市道路语义分割的大规模的LiDAR数据集，该数据集的提出获得 2020 CVPR
 
 
 
