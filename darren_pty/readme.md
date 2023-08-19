@@ -63,13 +63,14 @@
 - [12-RandLA-Net: Efﬁcient Semantic Segmentation of Large-Scale Point Clouds](https://blog.csdn.net/peng_258/article/details/132085815?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132085815%22%2C%22source%22%3A%22peng_258%22%7D)
 > 基于点的方法(直接处理原始点云)
 
-### 5.2 2D
 
 
 
 
 
-## 六、3D点云全景分割
+
+## 六、全景分割
+### 6.1 3D
 - [14-A Technical Survey and Evaluation of Traditional Point Cloud Clustering
 Methods for LiDAR Panoptic Segmentation](https://blog.csdn.net/peng_258/article/details/132379011?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132379011%22%2C%22source%22%3A%22peng_258%22%7D)
 > 语义分割 + 聚类算法 = 全景分割；将点云中对象分割成一个个物体
