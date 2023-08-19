@@ -58,7 +58,8 @@
 
 #### 5.1.1 城市级室外RGB语义分割
 - [11-Efficient Urban-scale Point Clouds Segmentation with BEV Projection](https://blog.csdn.net/peng_258/article/details/132149629?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132149629%22%2C%22source%22%3A%22peng_258%22%7D)
-> 基于投影的方法
+> 基于投影的方法, 投影思路可以用于3D点云转2D图片，且有相关代码可借鉴
+
 ---
 - [12-RandLA-Net: Efﬁcient Semantic Segmentation of Large-Scale Point Clouds](https://blog.csdn.net/peng_258/article/details/132085815?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132085815%22%2C%22source%22%3A%22peng_258%22%7D)
 > 基于点的方法(直接处理原始点云)
