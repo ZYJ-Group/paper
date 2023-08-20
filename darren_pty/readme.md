@@ -83,4 +83,21 @@ Methods for LiDAR Panoptic Segmentation](https://blog.csdn.net/peng_258/article/
 > Toronto-3D 是一个带颜色信息城市道路语义分割的大规模的LiDAR数据集，该数据集的提出获得 2020 CVPR
 
 
+## 八、目标检测
+### 8.1 2D目标检测
+[16-SSD: Single Shot MultiBox Detector](https://blog.csdn.net/peng_258/article/details/132389509?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132389509%22%2C%22source%22%3A%22peng_258%22%7D)
+> 提出使用单一深度神经网络来进行2D图像目标检测的方法 SSD
+
+
+
+
+
+
+
+
+
+
+
+
+
 
