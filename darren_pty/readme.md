@@ -13,7 +13,10 @@
 - [7-Learning multiview 3D point cloud registration](https://blog.csdn.net/peng_258/article/details/130373356?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22130373356%22%2C%22source%22%3A%22peng_258%22%7D)
 
 
-
+### 2、同源 激光雷达点云配准
+#### 1.1 深度神经网络方法
+- [17-JoKDNet: A joint keypoint detection and description network for large-scale
+outdoor TLS point clouds registration](https://blog.csdn.net/peng_258/article/details/132538446?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132538446%22%2C%22source%22%3A%22peng_258%22%7D)
 
 
 
@@ -85,7 +88,7 @@ Methods for LiDAR Panoptic Segmentation](https://blog.csdn.net/peng_258/article/
 
 ## 八、目标检测
 ### 8.1 2D目标检测
-[16-SSD: Single Shot MultiBox Detector](https://blog.csdn.net/peng_258/article/details/132389509?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132389509%22%2C%22source%22%3A%22peng_258%22%7D)
+- [16-SSD: Single Shot MultiBox Detector](https://blog.csdn.net/peng_258/article/details/132389509?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132389509%22%2C%22source%22%3A%22peng_258%22%7D)
 > 提出使用单一深度神经网络来进行2D图像目标检测的方法 SSD
 
 
