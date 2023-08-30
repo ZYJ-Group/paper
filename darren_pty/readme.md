@@ -18,6 +18,9 @@
 - [17-JoKDNet: A joint keypoint detection and description network for large-scale
 outdoor TLS point clouds registration](https://blog.csdn.net/peng_258/article/details/132538446?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132538446%22%2C%22source%22%3A%22peng_258%22%7D)
 
+#### 1.2 基于传统优化方法
+- [18-Multisource forest point cloud registration with semantic-guided keypointsand robust RANSAC](https://blog.csdn.net/peng_258/article/details/132571460?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132571460%22%2C%22source%22%3A%22peng_258%22%7D)
+> 针对 森林 的空地配准
 
 
 ## 二、三维重建
