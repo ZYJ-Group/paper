@@ -97,13 +97,9 @@ Methods for LiDAR Panoptic Segmentation](https://blog.csdn.net/peng_258/article/
 > 提出使用单一深度神经网络来进行2D图像目标检测的方法 SSD
 
 
-
-
-
-
-
-
-
+## 九、网络
+- [19-Equivariant Multi-View Networks](https://blog.csdn.net/peng_258/article/details/132591021?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132591021%22%2C%22source%22%3A%22peng_258%22%7D)
+> 在计算机视觉中，模型在不同视角下对数据（例如，点云、图像等）对数据的变化具有一定的响应性。为了使模型能够更好地适应这种变化，不是仅仅对某个特定视角的数据进行训练，研究人员提出了等变多视角网络的概念。
 
 
 
