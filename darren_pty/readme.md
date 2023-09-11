@@ -13,8 +13,8 @@
 #### 1.2 深度神经网络方法
 - [7-Learning multiview 3D point cloud registration](https://blog.csdn.net/peng_258/article/details/130373356?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22130373356%22%2C%22source%22%3A%22peng_258%22%7D)
 
-
-
+- [21-RoReg: Pairwise Point Cloud Registration With Oriented Descriptors and Local Rotations](https://blog.csdn.net/peng_258/article/details/132579689?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132579689%22%2C%22source%22%3A%22peng_258%22%7D)
+> 带方向的描述子 + 局部旋转 实现室内外点云配准
 
 
 ### 2、同源 激光雷达点云配准
@@ -28,6 +28,12 @@ outdoor TLS point clouds registration](https://blog.csdn.net/peng_258/article/de
 #### 1.2 基于传统优化方法
 - [18-Multisource forest point cloud registration with semantic-guided keypointsand robust RANSAC](https://blog.csdn.net/peng_258/article/details/132571460?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132571460%22%2C%22source%22%3A%22peng_258%22%7D)
 > 针对 森林 的空地同源配准
+
+
+
+
+
+
 
 
 ## 二、三维重建
