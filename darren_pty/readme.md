@@ -26,7 +26,10 @@ outdoor TLS point clouds registration](https://blog.csdn.net/peng_258/article/de
 - [21-RoReg: Pairwise Point Cloud Registration With Oriented Descriptors and Local Rotations](https://blog.csdn.net/peng_258/article/details/132579689?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132579689%22%2C%22source%22%3A%22peng_258%22%7D)
 > 带方向的描述子 + 局部旋转 实现室内外点云配准
 
+- [22-PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://blog.csdn.net/peng_258/article/details/132942481?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132942481%22%2C%22source%22%3A%22peng_258%22%7D)
+> 低重叠率点云配准 backbone=KPConv   2021 CVPR
 
+--- 
 
 #### 1.2 基于传统优化方法
 - [18-Multisource forest point cloud registration with semantic-guided keypointsand robust RANSAC](https://blog.csdn.net/peng_258/article/details/132571460?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132571460%22%2C%22source%22%3A%22peng_258%22%7D)
@@ -34,7 +37,8 @@ outdoor TLS point clouds registration](https://blog.csdn.net/peng_258/article/de
 
 
 
-
+---
+--- 
 
 
 
