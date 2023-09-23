@@ -27,10 +27,10 @@ outdoor TLS point clouds registration](https://blog.csdn.net/peng_258/article/de
 > 带方向的描述子 + 局部旋转 实现室内外点云配准
 
 - [22-PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://blog.csdn.net/peng_258/article/details/132942481?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132942481%22%2C%22source%22%3A%22peng_258%22%7D)
-> 低重叠率点云配准 backbone=KPConv,使用了transformer self-attention   2021 CVPR
+> 2021 CVPR 低重叠率点云配准 backbone=KPConv,使用了transformer self-attention   
 
 - [23-CoFiNet: Reliable Coarse-to-fine Correspondences for Robust Point Cloud Registration](https://blog.csdn.net/peng_258/article/details/133189505?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22133189505%22%2C%22source%22%3A%22peng_258%22%7D)
-> NIPS 2021 使用了transformer self-attention 性能高于predator和D3feat
+> NIPS 2021 backbone= KPConv, 使用了transformer self-attention 性能高于predator和D3feat
 
 
 --- 
