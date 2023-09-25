@@ -13,9 +13,8 @@
 #### 1.2 深度神经网络方法
 - [7-Learning multiview 3D point cloud registration](https://blog.csdn.net/peng_258/article/details/130373356?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22130373356%22%2C%22source%22%3A%22peng_258%22%7D)
 
-- 【[论文简述](https://github.com/Darren-pty/Research/blob/main/Learning%20of%20way/Semester/picture/106.png)】[24-FF-LOGO: Cross-Modality Point Cloud Registration with Feature
-Filtering and Local to Global Optimization](https://blog.csdn.net/peng_258/article/details/133083931?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22133083931%22%2C%22source%22%3A%22peng_258%22%7D)
-
+- [24-FF-LOGO: Cross-Modality Point Cloud Registration with Feature
+Filtering and Local to Global Optimization](https://blog.csdn.net/peng_258/article/details/133083931?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22133083931%22%2C%22source%22%3A%22peng_258%22%7D)【[论文简述](https://github.com/Darren-pty/Research/blob/main/Learning%20of%20way/Semester/picture/106.png)】
 
 
 
@@ -35,6 +34,9 @@ outdoor TLS point clouds registration](https://blog.csdn.net/peng_258/article/de
 
 - [23-CoFiNet: Reliable Coarse-to-fine Correspondences for Robust Point Cloud Registration](https://blog.csdn.net/peng_258/article/details/133189505?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22133189505%22%2C%22source%22%3A%22peng_258%22%7D)
 > NIPS 2021 backbone= KPConv, 使用了transformer self-attention 性能高于predator和D3feat
+
+- [24-Geometric Transformer for Fast and Robust Point Cloud Registration](https://blog.csdn.net/peng_258/article/details/133093504?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22133093504%22%2C%22source%22%3A%22peng_258%22%7D)【[论文简述](https://github.com/Darren-pty/Research/blob/main/Learning%20of%20way/Semester/picture/107.png)】
+> CVPR 2022 CoFiNet的升级， baseline是CoFiNet,加入几何信息
 
 
 --- 
