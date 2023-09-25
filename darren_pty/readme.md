@@ -32,7 +32,7 @@ outdoor TLS point clouds registration](https://blog.csdn.net/peng_258/article/de
 - [22-PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://blog.csdn.net/peng_258/article/details/132942481?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132942481%22%2C%22source%22%3A%22peng_258%22%7D)
 > 2021 CVPR 低重叠率点云配准 backbone=KPConv,使用了transformer self-attention   
 
-- [23-CoFiNet: Reliable Coarse-to-fine Correspondences for Robust Point Cloud Registration](https://blog.csdn.net/peng_258/article/details/133189505?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22133189505%22%2C%22source%22%3A%22peng_258%22%7D)
+- [23-CoFiNet: Reliable Coarse-to-fine Correspondences for Robust Point Cloud Registration](https://blog.csdn.net/peng_258/article/details/133189505?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22133189505%22%2C%22source%22%3A%22peng_258%22%7D)【[论文简述](https://github.com/Darren-pty/Research/blob/main/Learning%20of%20way/Semester/picture/109.png)】
 > NIPS 2021 backbone= KPConv, 使用了transformer self-attention 性能高于predator和D3feat
 
 - [24-Geometric Transformer for Fast and Robust Point Cloud Registration](https://blog.csdn.net/peng_258/article/details/133093504?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22133093504%22%2C%22source%22%3A%22peng_258%22%7D)【[论文简述](https://github.com/Darren-pty/Research/blob/main/Learning%20of%20way/Semester/picture/107.png)】
@@ -136,6 +136,13 @@ Methods for LiDAR Panoptic Segmentation](https://blog.csdn.net/peng_258/article/
 ## 九、网络
 - [19-Equivariant Multi-View Networks](https://blog.csdn.net/peng_258/article/details/132591021?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22132591021%22%2C%22source%22%3A%22peng_258%22%7D)
 > 在计算机视觉中，模型在不同视角下对数据（例如，点云、图像等）对数据的变化具有一定的响应性。为了使模型能够更好地适应这种变化，不是仅仅对某个特定视角的数据进行训练，研究人员提出了等变多视角网络的概念。
+
+
+## 十、二维图像特征提取
+- [25-SuperGlue:Learning Feature Matching with Graph Neural Networks](https://github.com/Darren-pty/Research/blob/main/Learning%20of%20way/Semester/picture/109.png)
+> 2020 CVPR
+
+
 
 
 
