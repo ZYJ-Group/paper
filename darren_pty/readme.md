@@ -13,6 +13,10 @@
 #### 1.2 深度神经网络方法
 - [7-Learning multiview 3D point cloud registration](https://blog.csdn.net/peng_258/article/details/130373356?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22130373356%22%2C%22source%22%3A%22peng_258%22%7D)
 
+- 【[论文简述](https://github.com/Darren-pty/Research/blob/main/Learning%20of%20way/Semester/picture/106.png)】[24-FF-LOGO: Cross-Modality Point Cloud Registration with Feature
+Filtering and Local to Global Optimization](https://blog.csdn.net/peng_258/article/details/133083931?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22133083931%22%2C%22source%22%3A%22peng_258%22%7D)
+
+
 
 
 ### 2、同源 激光雷达点云配准
