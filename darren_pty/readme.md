@@ -140,7 +140,7 @@ Methods for LiDAR Panoptic Segmentation](https://blog.csdn.net/peng_258/article/
 
 ## 十、二维图像特征提取
 - [25-SuperGlue:Learning Feature Matching with Graph Neural Networks](https://github.com/Darren-pty/Research/blob/main/Learning%20of%20way/Semester/picture/109.png)
-> 2020 CVPR
+> 2020 CVPR 其思想被三维点云配准CoFiNet(NIPS 2021)借鉴
 
 
 
