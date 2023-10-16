@@ -16,7 +16,7 @@
 
 生成扩散模型DDPM如下图所示分为前向、逆向两个过程，它首先通过不断往原始清晰数据中添加噪声使其变成标准高斯噪声（前向过程），而后期望从标准高斯噪声中还原原始数据（逆向过程）。若能实现，那我们便可从已知的标准高斯分布中采样一个噪声数据，而后利用DDPM模型生成符合原始数据分布的新数据啦。下面将分别从前向过程和逆向过程两个角度解析DDPM算法。
 
-![10.173](F:\新桌面\ZUT\reading\images\10.173.png)
+![10.173](images/10.173.png)
 
 
 
@@ -26,17 +26,17 @@
 
    假设，
 
-![10174](F:\新桌面\ZUT\reading\images\10174.png)
+![10174](images/10174.png)
 
 后一时刻分布是有前一时刻加噪得到的
 
 
 
-![10176](F:\新桌面\ZUT\reading\images\10176.png)
+![10176](images/10176.png)
 
-![10177](F:\新桌面\ZUT\reading\images\10177.png)
+![10177](images/10177.png)
 
-![10175](F:\新桌面\ZUT\reading\images\10175.png)
+![10175](images/10175.png)
 
 利用马尔科夫过程特性以及高斯分布的叠加性得到
 
@@ -48,19 +48,15 @@
 
 反向过程： 
 
-​                                  前项过程提供标签 ，反向过程用这个标签去预测 噪声分布 Zt ![67edc0d484f139fb075b3299f1a2add](D:\WeChat Files\wxid_1quzcu7y2me722\FileStorage\Temp\67edc0d484f139fb075b3299f1a2add.png)
+​                                  前项过程提供标签 ，反向过程用这个标签去预测 噪声分布 Zt 
 
-
-
-![18bdc1371ecf4b4f7adfdba3179dcbd](D:\WeChat Files\wxid_1quzcu7y2me722\FileStorage\Temp\18bdc1371ecf4b4f7adfdba3179dcbd.png)                                                        ![4ca6f856d1fe7ab1505130a2cfc0b44](D:\WeChat Files\wxid_1quzcu7y2me722\FileStorage\Temp\4ca6f856d1fe7ab1505130a2cfc0b44.png)
-
-![10.172](F:\新桌面\ZUT\reading\images\10.172.png)
+![10.172](images/10.172.png)
 
 算法一，训练过程，
 
-：![10.17](F:\新桌面\ZUT\reading\images\10.17.png)
+![10.17](images/10.17.png)
 
-![10.171](F:\新桌面\ZUT\reading\images\10.171.png)
+![10.171](images/10.171.png)
 
 ### Result
 
