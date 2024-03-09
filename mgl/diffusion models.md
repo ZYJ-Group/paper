@@ -3,7 +3,7 @@
 
 - School of Automation, Central South University, Changsha, China（主要作者单位）
 
-### 1 Dif-Fusion: Toward High Color Fidelity in Infrared and Visible Image Fusion With Diffusion Models ( [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83) 2023) https://doi.org/10.1109/TIP.2023.3322046（序号+文章名+发表刊物+年份+链接）
+### 1 Dif-Fusion: Toward High Color Fidelity in Infrared and Visible Image Fusion With Diffusion Models ( [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83) 2023) https://doi.org/10.1109/TIP.2023.3322046   （序号+文章名+发表刊物+年份+链接）
 
 - 2023/3/8(阅读时间)
 
