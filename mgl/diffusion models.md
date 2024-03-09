@@ -1,5 +1,20 @@
-# Diffusion Models  已更新文献数量 2篇
-## 2  Jiaming Song （DENOISING DIFFUSION IMPLICIT MODELS）[paper](images/ddim.pdf)  
+# Diffusion Models  已更新文献数量 3篇
+## 3篇-Jun Yue (Keywords:Diffusion Model;Image fusion;deep generative model ) （篇数+作者信息+关键词）
+
+- School of Automation, Central South University, Changsha, China（主要作者单位）
+
+### 1 Dif-Fusion: Toward High Color Fidelity in Infrared and Visible Image Fusion With Diffusion Models ( [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83) 2023) https://doi.org/10.1109/TIP.2023.3322046（序号+文章名+发表刊物+年份+链接）
+
+- 2023/3/8(阅读时间)
+
+#### conclusion by MGL:基于扩散模型的红外-可见光图像融合方法，实现多通道互补信息提取，有效保持色彩和视觉质量。一方面，利用正反向扩散过程构建了潜在空间中多通道输入数据的分布。通过训练逆向过程中的去噪网络来预测前向过程中增加的高斯噪声，构建多通道数据的分布。直接生成彩色融合图像，并同时实现颜色、梯度和强度的保真度。
+
+![1709971639007](img/1709971639007.png)
+
+ 这篇文章也是基于扩散模型，论文写作的大致流程非常值得借鉴，比如本文在方法里叙述原始扩散模型分为三个部分介绍 正向扩散过程过程，反向扩散过程以及损失函数，之后在第二章叙述的是相关工作分为两部分A. 红外和可见光图像融合；包括传统方法和基于深度学习的方法；B. 扩散模型；B部分可以直接借鉴写法；A部分我们可以叙述预测；同时也包括传统方法和基于深度学习的方法；以及后面的实验部分
+
+这篇文章使用的三个公共数据集进行定量和定性分析，以评估所提出的框架。此外，与六个最先进的模型进行了比较，并且 有两种是基于 CNN 架构的融合方法，而 另外四种是基于生成模型及其变体的；代码公开；比较有信服力。红外-可见光图像融合这种方法是不是也可以拓展到 ISAR和光学图像的融合；若有必要，可再仔细读。
+## 2篇-Jiaming Song （DENOISING DIFFUSION IMPLICIT MODELS）[paper](images/ddim.pdf)  
 - Stanford University
 ### DENOISING DIFFUSION IMPLICIT MODELS (ICLR 2021)
 - 2023.10.23
@@ -18,7 +33,7 @@
 
 
 
-## 1 Jonathan Ho (Denoising Diffusion Probabilistic Models)[paper](images/ddpm.pdf)
+## 1篇-Jonathan Ho (Denoising Diffusion Probabilistic Models)[paper](images/ddpm.pdf)
 -UC Berkeley 
 
 ### 34th Conference on Neural Information Processing Systems (NeurIPS 2020), Vancouver, Canada
