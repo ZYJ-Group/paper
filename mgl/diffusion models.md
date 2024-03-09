@@ -5,7 +5,7 @@
 
 ### 1 Dif-Fusion: Toward High Color Fidelity in Infrared and Visible Image Fusion With Diffusion Models ( [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83) 2023) https://doi.org/10.1109/TIP.2023.3322046   （序号+文章名+发表刊物+年份+链接）
 
-- 2023/3/8(阅读时间)
+- 2024/3/8(阅读时间)
 
 #### conclusion by MGL:基于扩散模型的红外-可见光图像融合方法，实现多通道互补信息提取，有效保持色彩和视觉质量。一方面，利用正反向扩散过程构建了潜在空间中多通道输入数据的分布。通过训练逆向过程中的去噪网络来预测前向过程中增加的高斯噪声，构建多通道数据的分布。直接生成彩色融合图像，并同时实现颜色、梯度和强度的保真度。
 
