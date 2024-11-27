@@ -6,7 +6,7 @@ SuperPiont是一种自监督网络框架，能够同时提取特征点的位置�
 ## 整体步骤
 
 **三个部分**
-
+![image](https://github.com/ZYJ-Group/paper/blob/main/WYJ/img/11.27(1).jpg)
 1. 特征点预训练
    创建合成数据集 Synthetic Shapes， 利用合成数据集搭建SuperPoint。训练结果在合成数据集 Synthetic Shapes上，显著优于传统的兴趣点检测器,这里训练出的检测器叫MagicPoint。
 2. 自监督标签
@@ -18,7 +18,7 @@ SuperPiont是一种自监督网络框架，能够同时提取特征点的位置�
 
 ## 框架及原理
 
-
+![]
 1.Shared Encoder 共享编码网络
 输入（H,W）的图像，经过4次block块（每一个块包括2个卷积层和最大池化层，最后一次没有池化层），池化层选用的步长step为2，每一次 tensor 尺寸就缩小一倍。最终输出的就是（Hc,Wc,128）的 tensor。其中Hc=H/8，Wc=W/8。
 
