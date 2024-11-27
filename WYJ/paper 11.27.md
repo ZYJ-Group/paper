@@ -18,7 +18,7 @@ SuperPiont是一种自监督网络框架，能够同时提取特征点的位置�
 
 ## 框架及原理
 
-![]
+![image](https://github.com/ZYJ-Group/paper/blob/main/WYJ/img/11.27(2).png)
 1.Shared Encoder 共享编码网络
 输入（H,W）的图像，经过4次block块（每一个块包括2个卷积层和最大池化层，最后一次没有池化层），池化层选用的步长step为2，每一次 tensor 尺寸就缩小一倍。最终输出的就是（Hc,Wc,128）的 tensor。其中Hc=H/8，Wc=W/8。
 
@@ -34,26 +34,18 @@ SuperPiont是一种自监督网络框架，能够同时提取特征点的位置�
 损失函数设计分为三部分：Lp：特征点损失；Lp'：右图特征点损失；Ld：特征描述损失
 
 最终损失是两个中间损失的总和：
-$\begin{array}{c}
-\mathcal{L}\left(\mathcal{X}, \mathcal{X}', \mathcal{D}, \mathcal{D}'; Y, Y', S\right) = \\
-\mathcal{L}_{p}(\mathcal{X}, Y) + \mathcal{L}_{p}\left(\mathcal{X}', Y'\right) + \lambda \mathcal{L}_{d}\left(\mathcal{D}, \mathcal{D}', S\right).
-\end{array}$
+![image](https://github.com/ZYJ-Group/paper/blob/main/WYJ/img/f1.png)
 
 其中Lp：特征点损失：
-$\mathcal{L}_p(\mathcal{X}, Y) = \frac{1}{H_c W_c} \sum_{h=1}^{H_c, W_c} \sum_{w=1}^{W_c} l_p(\mathbf{x}_{hw}; y_{hw}),$
-
-$l_p(\mathbf{x}_{hw}; y) = -\log\left(\frac{\exp(\mathbf{x}_{hw}y)}{\sum_{k=1}^{65}\exp(\mathbf{x}_{hwk})}\right).$
+![image](https://github.com/ZYJ-Group/paper/blob/main/WYJ/img/f2.png)
+![image](https://github.com/ZYJ-Group/paper/blob/main/WYJ/img/f3.png)
 
 Ld：特征描述损失
 
 判定p与p'的距离:
-$s_{hwh'w'} = 
-\begin{cases} 
-1, & \text{if } \|\widehat{\mathcal{H}} \mathbf{p}_{hw} - \mathbf{p}_{h'w'}\| \leq 8 \\ 
-0, & \text{otherwise}
-\end{cases}$
+![image](https://github.com/ZYJ-Group/paper/blob/main/WYJ/img/f4.png)
 
-$\mathcal{L}_d(\mathcal{D}, \mathcal{D}', S) = \frac{1}{(H_c W_c)^2} \sum_{h=1}^{H_c, W_c} \sum_{w=1}^{H_c, W_c} \sum_{h'=1}^{H_c, W_c} \sum_{w'=1}^{H_c, W_c} l_d(\mathbf{d}_{hw}, \mathbf{d}_{h'w'}'; s_{hwh'w'}),$
+![image](https://github.com/ZYJ-Group/paper/blob/main/WYJ/img/f5.png)
+![image](https://github.com/ZYJ-Group/paper/blob/main/WYJ/img/f6.png)
 
-$l_d(\mathbf{d}, \mathbf{d}'; s) = \lambda_d \cdot s \cdot \max(0, m_p - \mathbf{d}^T \mathbf{d}') + (1 - s) \cdot \max(0, \mathbf{d}^T \mathbf{d}' - m_n).$
-
+d与d'越相似，loss越小
