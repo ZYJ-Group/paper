@@ -1,1 +1,0 @@
-<img src="C:\Users\Administrator\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TempState\ScreenClip\{9150932F-D3CF-418E-BB31-CE48C71E6799}.png" alt="{9150932F-D3CF-418E-BB31-CE48C71E6799}" style="zoom:150%;" />
