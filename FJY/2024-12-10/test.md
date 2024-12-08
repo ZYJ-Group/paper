@@ -1,0 +1,1 @@
+![{29294C82-E4E4-4FCA-8CA2-552D678A9954}](C:/Users/Administrator/AppData/Local/Packages/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/TempState/ScreenClip/%7B29294C82-E4E4-4FCA-8CA2-552D678A9954%7D.png)
