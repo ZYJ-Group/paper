@@ -73,7 +73,6 @@ ATT计算基于相关节点和边缘类型的节点对之间的重要性权重:
    完美设置（Perfect Setting）和嘈杂设置（Noisy Setting）。在完美设置中，所有智能体的定位都是准确的，并且所有智能体之间完全同步。在嘈杂设置中，考虑了定位误差和时间延迟的影响。
 2. 评估指标：
    使用平均精度（Average Precision, AP）在不同交并比（Intersection-over-Union, IoU）阈值下评估模型的检测性能。重点关注基于LiDAR的车辆检测任务。
-3. 比较方法：
    
 
 
