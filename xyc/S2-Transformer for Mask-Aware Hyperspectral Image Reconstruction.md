@@ -26,7 +26,7 @@
 
 3. S2-Transformer：网络框架
 
-![bc5d988121ce119a86e17044a9eb85f6](C:\Users\Lenovo\Documents\WeChat Files\wxid_qzynu1uopzi122\FileStorage\Temp\bc5d988121ce119a86e17044a9eb85f6.png)
+<img width="1080" height="390" alt="image" src="https://github.com/user-attachments/assets/f66c1958-ba5d-48b3-bb30-03d0bf2feb7a" />
 
 整个网络分为三部分：
 
@@ -41,7 +41,8 @@
 
 采用**并行**，因为在**精度更高**的同时**计算量更小**，且能让两类注意力更**独立、融合**更灵活。
 
-![image-20251112172837299](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20251112172837299.png)
+<img width="301" height="33" alt="image" src="https://github.com/user-attachments/assets/2df9476c-767b-4cfd-ad2a-086476d7ceed" />
+
 
 - 重建头： 3×3 卷积把处理好的特征转换回高光谱图像
 
@@ -55,7 +56,8 @@
 
 **光谱注意力**像"老花镜"：能分析波长规律，却抓不住精细的空间细节
 
-![a673bf0489368983d849e49814bdd492](C:\Users\Lenovo\Documents\WeChat Files\wxid_qzynu1uopzi122\FileStorage\Temp\a673bf0489368983d849e49814bdd492.png)
+<img width="1080" height="423" alt="image" src="https://github.com/user-attachments/assets/b313d85a-f80b-4c7e-b33b-26a206529be5" />
+
 
  LN（LayerNorm 预归一化）、MSA（多头自注意）、FFN（前馈层），以及“⊕”残差
 
@@ -66,8 +68,7 @@
 5.绝技二：掩膜感知学习，给"黑洞区域"开小灶
 
   **被掩膜遮挡**的区域重建难度大，但之前的**损失函数**对所有**像素"一碗水端平"**，导致这些区域总是拖后腿。
-
-![fd08feed923fb24cae16003de1aa635e](C:\Users\Lenovo\Documents\WeChat Files\wxid_qzynu1uopzi122\FileStorage\Temp\fd08feed923fb24cae16003de1aa635e.png)
+<img width="1063" height="433" alt="image" src="https://github.com/user-attachments/assets/89dd9625-c6be-4157-a694-f74214711340" />
 
 它通过两步操作实现：
 
@@ -80,12 +81,13 @@
 
 不同波长重建结果对比
 
-![4d18194f335d87262c4ac46d2c7b502e](C:\Users\Lenovo\Documents\WeChat Files\wxid_qzynu1uopzi122\FileStorage\Temp\4d18194f335d87262c4ac46d2c7b502e.png)
+<img width="1080" height="464" alt="image" src="https://github.com/user-attachments/assets/98cd61f4-db36-4ea2-bdf6-beac24a5e3eb" />
 
 
 
 7.**并行空间×光谱注意力**：去云同样存在**空间遮挡**与**跨波段不一致**（薄云、云影引起的光谱漂移）
 
 **掩码感知训练**：把**云掩膜/云概率**当成“掩码”，给云区更高损失权重
+
 
 ACA 当前偏“空间注意力”型
