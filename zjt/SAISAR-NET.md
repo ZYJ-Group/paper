@@ -3,8 +3,9 @@
 本文提出了一种名为**SAISAR-Net（Sequential Adjustment ISAR Image Classification Network）**的深度学习网络，专用于处理和分类具有未知变形的ISAR序列图像 。
 
 
+<img width="1071" height="524" alt="ScreenShot_2025-11-12_213841_315" src="https://github.com/user-attachments/assets/073cb4e5-e313-4124-995d-1f06366b89ac" />
 
-![ScreenShot_2025-11-12_213841_315](C:\Users\22166\Desktop\ScreenShot_2025-11-12_213841_315.png)
+
 
 
 
@@ -82,6 +83,7 @@ $$\alpha_t = \text{softmax}(\text{Score})$$
 
 
 ## 
+
 
 
 
