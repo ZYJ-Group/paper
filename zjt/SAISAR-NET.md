@@ -11,7 +11,7 @@
 
 ### 1.1 总体架构概览
 
-  SAISAR-Net 的输入是一个ISAR图像序列 $S \in \mathbb{R}^{F \times N_x \times N_y}$，其中 $F$ 是序列长度，$N_x \times N_y$ 是图像尺寸（实验中为 $120 \times 120$）。
+  SAISAR-Net 的输入是一个ISAR图像序列 $S \in \mathbb{R}^{F \times N_x \times N_y}$，其中 $F$ 是序列长度,Nx和Ny是图像尺寸（实验中为 $120 \times 120$）。
 
 1. **全局调整**：首先，序列中的每一帧图像都经过一个共享参数的仿射变换网络，校正其旋转、平移和缩放。
 2. **局部调整**：校正后的图像进入特征提取网络，通过可变形卷积层，对特征图进行像素级的微调，以适应局部结构变化。
@@ -78,11 +78,11 @@ $$\text{Score}(\text{Key}, \text{Que}) = \mathbf{v}^T \tanh(W_1 [\text{Key}; \te
 
 $$\alpha_t = \text{softmax}(\text{Score})$$
 
-最终的分类特征向量是所有时刻特征的加权和：$C = \sum_{t=1}^{F} \alpha_t \text{Value}_t$ 。这种机制允许网络自动识别并“聚焦”于那些姿态清晰、特征显著的关键帧，而忽略那些因闪烁或噪声导致质量下降的帧，显著提升了识别的鲁棒性。
 
 
 
 ## 
+
 
 
 
